@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: lightblue;
+    text-align: center ;
+     
+  }
+  
+  h1 {
+    background-color: rgb(89, 207, 142);
+    border-bottom: 2px dashed orangered;
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  #lista{
+      list-style: none;
+  }
+
+  #indicador{
+    background-color: lightblue;
+  }
+
+  #contatos{
+      display: flex;
+      background-color: rgb(89, 207, 142);
+  }
+
+  .aaa{
+      padding: 20px;
+      width: 30vw;
+  }
+
+  
