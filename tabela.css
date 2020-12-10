@@ -1,0 +1,11 @@
+body {
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    width: 20px;
+    align-self: center;
+}
