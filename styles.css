@@ -38,4 +38,11 @@ body {
       width: 30vw;
   }
 
+  #static{
+    background: crimson;
+    position: relative;
+    top: -20px;
+    right:100;
+    width:300;
+}
   
