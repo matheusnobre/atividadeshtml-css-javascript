@@ -1,12 +1,24 @@
-body {
-    text-align: center ;
-    display: flex;
+section {
+    display: flex; /* Flexibilizando o bloco section*/
+}
+
+div {
+    text-align: center;/*Centralizando o texto*/
+    display: flex;/*Flexibilizando o bloco div*/
     flex-direction: column;
+    width: 50vw;
 }
 
 table, th, td {
-    border: 1px solid #333;
-    width: 20px;
-    align-self: center;
+    border: 1px solid #333; /* Adicionando bordas nos elementos de tabela*/
+    align-self: center; /* Alinha o elemento no centro do layout*/
+}
+
+td {
+    text-align: justify;
+}
+
+table {
+    width: 45vw;
 }
 
