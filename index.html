@@ -3,55 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOBRE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>NOBRE</title>
 </head>
 <body>
-    <h1>Matheus Nobre</h1>
 
-    <h2>matheus13051917@gmail.com</h2>
-    <h4>Desenvolver conhecimentos que me permitam a criação, bem como a manipulação de produtos gráficos web, atravéz de aulas teóricas e praticas intercaladas.</h4>
-    <h4>Lista de assuntos que estudei até agora:</h4>
-    <div id="assuntos">   
-        <ul id="lista1">
+    <header>
+        <img class="avatar" src="https://avatars2.githubusercontent.com/u/75620694?s=400&u=485b716fe4bf7e7c9f3ce94a4972ecbe77cad26e&v=4" alt="">
+
+        <h1 class="title">Matheus Nobre</h1>
+
+        <h2 class="subtitle">Web Developer</h2>
+
+        <ul class="contato">
+            <li>
+                <a href="http://github.com/matheusnobre" target="">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:matheus13051917@gmail.com" target=""></a>
+                <i class="fa fa-envelope"></i>
+            </li>
+        </ul>
+
+        <a href="#sobre" id="down">
+            <i class="fa fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <section id="sobre">
+        <div id="about-me">
+            <h1>SOBRE MIM</h1>
+            <p><h4> Desenvolver conhecimentos que me permitam a criação, bem como a manipulação de produtos gráficos web, atravéz de aulas teóricas e praticas intercaladas.</h4></p>
+        </div>
+        <ul id="lista">
+            <h4>Lista de assuntos que estudei até agora:</h4>
             <li>Anatomia dos tipos;</li>
-            <li>Noções de linhas para a escrita das fontes;</li>
-            <li>Relação de cor e luz: RBG/CMYK, cores primarias, secundárias, terciárias, complementares, análogas, tom e temperatura das cores;</li>
+            <!--<li>Noções de linhas para a escrita das fontes;</li>-->
+            <!--<li>Relação de cor e luz: RBG/CMYK, cores primarias, secundárias, terciárias, complementares, análogas, tom e temperatura das cores;</li>-->
             <li>Elementos estruturais visuais básicos;</li>
-            <li>Metodologia do design: compreender, observar, definir, idealizar, prototipar, testar e implementar;</li>
+            <!--<li>Metodologia do design: compreender, observar, definir, idealizar, prototipar, testar e implementar;</li>-->
             <li>LOW-FI/HIGH-FI;</li>
             <li>As eurísticas de Nielsen;</li>
-            <li>Programação html: estrutura, simbolos em tags;</li>
-            <li>Programação CSS: introdução de formatação do html.</li>
+            <!--<li>Programação html: estrutura, simbolos em tags;</li>-->
+            <!--<li>Programação CSS: introdução de formatação do html.</li>-->
+            <li>html5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
         </ul>
-    </div>
-    <p id="indicador"><h1>Contatos</h1></p>
-    <div id="contatos">
-        <div class="aaa">
-            <a href="http://google.com" target="_blank">google</a>
-        </div>
-        <div class="aaa">
-            <a href="http://youtube.com" target="_blank">youtube</a>
-        </div>
-        <div class="aaa">
-            <a href="http://gmail.com" target="_blank">gmail</a>
-        </div>
-    </div>
-<nav>
-    <h2>Atividades</h2>
+    </section>
+
+    <section id="atividades">
+        <h2>Atividades</h2>
     <ul id="lista2">
         <li>
             <a href="./tabela.html" target="_blank" rel="noopener noreferrer">
-            tabela
+            Tabela
             </a>
         </li>
         <li>
             <a href="./album.html" target="_blank" rel="noopener noreferrer">
-            album
+            Álbum
+            </a>
+        </li>
+        <li>
+            <a href="./todo.html" target="_blank" rel="noopener noreferrer">
+            Todo List
+            </a>
+        </li>
+        <li>
+            <a href="./ListaCompras.html" target="_blank" rel="noopener noreferrer">
+            Lista de Compras
             </a>
         </li>
     </ul>
-</nav>
+    </section>
+
+    <footer>
+        <p>
+            Desenvolvido por
+            <a href="http:/github.com/matheusnobre" target="blank">
+                Matheus
+            </a>
+        </p>
+    </footer>
+    <button id="btn">Tema</button>
+    <script src="./js/index.js"></script>
+
 <div id="divisor"></div>
 </body>
 </html>

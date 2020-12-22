@@ -1,52 +1,170 @@
-#divisor {
-  background-color:rgb(89, 207, 142);
-  width: 100%;
-  height: 10px;
-}
 
 body {
-    background-color: lightblue;
+    background-color: #add8e6;
     text-align: center ;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    --color1: #846aee;
+    --color2: #5c3bdf;
      
   }
-  
-  h1 {
-    background-color: rgb(89, 207, 142);
-    border-bottom: 2px dashed orangered;
-  }
 
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-
-  #lista1{
-      list-style: none;
-      text-align: justify;
-      margin-left: 30vh;
-      margin-right: 20vh;
-  }
-
-  #lista2{
-    list-style: none;
-    text-align: center;
+/* Esttilização do header - Section 1 */
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-  #indicador{
-    background-color: lightblue;
-  }
+/* Esttilização da imagem */
+.avatar {
+  width: 14vw;
+  border-radius: 100px;
+}
 
-  #contatos{
-      display: flex;
-      background-color: rgb(89, 207, 142);
-  }
+/* Esttilização do h1 */
+.title {
+  font-size: 2.2rem;
+  margin: 5px 0;
+  animation-duration: 1.5s;
+  animation-name: slidein;
 
-  .aaa{
-      padding: 20px;
-      width: 30vw;
-  }
+  /*Animação*/
+}
 
-  #assuntos {
-      display: flex;
+.subtitle {
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin: 0;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+
+  /*Animação*/
+}
+
+/* Esttilização contato ul - li */
+.contato {
+  padding: 0;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+
+  /*animação*/
+}
+
+.contato li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.contato i {
+  color: var(--color1);
+  font-size: 1.6rem;
+}
+
+.contato i:hover {
+  color: var(--color2);
+}
+
+#down {
+  color:var(--color1);
+  font-size: 1.4rem;
+}
+
+#down:hover {
+  color: var(--color2);
+}
+
+/* Estilizacção section sobre */
+#sobre {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--color1);
+}
+
+#sobre p {
+  width: 70vw;
+  margin-left: 50px;
+}
+ #about-me {
+   display: flex;
+   flex-direction: column;
+ }
+
+ #about-me h1 {
+   margin-left: 5vw;
+ }
+
+ #lista {
+   width: 20vw;
+   font-size: 1.2rem;
+   text-align: center;
+ }
+
+ #lista li {
+   font-weight: 700;
+   padding: 20px 0;
+   list-style: none;
+ }
+
+ #lista li:hover {
+   background-color: var(--color2);
+   border-radius: 20px;
+ }
+
+ #atividades {
+   height: 50vh;
+   text-align: center;
+   border-top: 1px solid var(--color1);
+ }
+
+ #atividades li {
+   list-style: none;
+   padding: 5px;
+ }
+
+ #atividades a {
+   text-decoration: none;
+   color: var(--color1);
+   font-size: 1.2rem;
+ }
+
+ #atividades a:hover {
+   color: var(--color2);
+   text-decoration: underline;
+ }
+
+ /** Estilização footer **/
+ footer {
+   background-color: #232232;
+   color: #fff;
+   height: 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: -8px;
+ }
+
+ footer a {
+   color: var(--color1);
+ }
+
+ /* Animação */
+@keyframes slidein {
+  from {
+    margin-top: 50vh;
+    width: 100vw;
   }
-  
+  to {
+    margin-left: 0;
+  }
+}
+
+#btn {
+  position: fixed;
+  right: 1vw;
+  top: 1vw;
+}

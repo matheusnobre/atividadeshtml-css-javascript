@@ -9,13 +9,6 @@ buttonAdd.addEventListener("click", function(event) {
     //Console.log(todo);
     //console.log(todo.value);
 
-    //criando licom nova todo
-    var newLi = document.createElement("li");
-    //console.log(newLi);
-
-    var addI = document.createElement("i")
-    addI.className = "fa fa-thumbtack"
-
     //Adicionando o valor digitado no imput dentro da newLi
     newLi.textContent = todo.value;
     newLi.appendChild(addI)
